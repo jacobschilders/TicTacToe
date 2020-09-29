@@ -225,12 +225,12 @@ namespace Tic_Tac_Toe
                     Console.Clear();
                     if (playerSignature == 'X')
                     {
-                        Console.WriteLine("Congratulations Player 1.\n You have won Tic Tac Toe!");
+                        Console.WriteLine("Congratulations Player 2.\n You have won Tic Tac Toe!");
 
                     }
                     else if (playerSignature == 'O')
                     {
-                        Console.WriteLine("Congratulations Player 2.\nYou have won Tic Tac Toe! ");
+                        Console.WriteLine("Congratulations Player 1.\nYou have won Tic Tac Toe! ");
 
                     }
                     Console.WriteLine("Press any key to restart the game...");
@@ -254,12 +254,12 @@ namespace Tic_Tac_Toe
                     Console.Clear();
                     if (playerSignature == 'X')
                     {
-                        Console.WriteLine("Congratulations Player 1.\n You have won Tic Tac Toe!");
+                        Console.WriteLine("Congratulations Player 2.\n You have won Tic Tac Toe!");
 
                     }
                     else if (playerSignature == 'O')
                     {
-                        Console.WriteLine("Congratulations Player 2.\nYou have won Tic Tac Toe! ");
+                        Console.WriteLine("Congratulations Player 1.\nYou have won Tic Tac Toe! ");
 
                     }
                     Console.WriteLine("Press any key to restart the game...");
@@ -279,8 +279,12 @@ namespace Tic_Tac_Toe
                 {
                     if(playerSignature == 'X')
                     {
-                        Console.WriteLine("Congratulations Player 1. \nYou have won Tic Tac Toe!");
+                        Console.WriteLine("Congratulations Player 2. \nYou have won Tic Tac Toe!");
 
+                    }
+                    else if(playerSignature == 'O')
+                    {
+                        Console.WriteLine("Congratulations Player 1. \nYou have won Tic Tac Toe!");
                     }
                     Console.WriteLine("Press any key to restart the game...");
                     Console.ReadKey();
